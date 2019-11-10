@@ -1,0 +1,29 @@
+.background{
+	background-color:Lavender;
+	padding: 20px;
+	width: 80%;
+	margin:0 auto;
+}
+.title{
+	color: Black;
+	font-family: 'McLaren', cursive;
+	font-size: 200%;
+	display: flex;
+	justify-content: center;
+}
+.guide{
+	color:black;
+	font-family: 'McLaren', cursive;
+	font-size: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px
+}
+
+
+.container{
+	background-color: LavenderBlush;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 2fr
+	grid-column-gap: 10px
